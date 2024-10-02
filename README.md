@@ -1,9 +1,9 @@
 # A Dataset for MathOdyssey
 
 
-The [anonymous] Math 2024 presents a collection of 387 meticulously crafted math problems, meticulously curated by professional math problem writers from both universities and high schools. The compilation includes high school competition questions with 148 problems, followed by a series of 138 high school mathematics questions, and concluding with 101 university-level mathematics questions. 
+The dataset presents a collection of 387 meticulously crafted math problems, meticulously curated by professional math problem writers from both universities and high schools. The compilation includes high school competition questions with 148 problems, followed by a series of 138 high school mathematics questions, and concluding with 101 university-level mathematics questions. 
 
-The [anonymous] Math 2024 problem setters are composed of mathematics professors hailing from esteemed institutions such as [anonymous]. These professors were formally invited by [anonymous] to contribute their expertise to the competition. The problem setter committee aligned with the mission of [anonymous], which aims to advance innovative research in artificial general intelligence (AGI) and foster interdisciplinary collaboration, and ensure that AGI development benefits humanity as a whole. To maintain the integrity and fairness of the competition, the problem setter committee ensured that all problems were original and kept confidential. Responsibilities of the problem setter committee included problem generation, review, formatting, testing, and revisions for GAIC Math 2024.
+The Math problem setters are composed of mathematics professors hailing from esteemed institutions. These professors were formally invited to contribute their expertise to the competition. 
 
 
 A new dataset of 387 questions and solutions from high school competition questions, high school mathematics questions, and university-level mathematics questions.
@@ -46,7 +46,7 @@ To generate the response using llama or dbrx.
 python generate_with_llama.py
 python generate_with_dbrx.py
 ```
-Please note that the api_url may be subject to change over time, you can find the newest on [power.netmind.ai](https://power.netmind.ai/inference).
+Please note that the api_url may be subject to change over time, you may check it first.
 
 To clean the generated answer.
 ```python
